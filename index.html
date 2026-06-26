@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Allan Premium Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+<!-- SCROLL BAR -->
+<div id="progress-bar"></div>
+
+<!-- NAVBAR -->
+<header class="header">
+    <a href="#" class="logo">Allan<span>Dev</span></a>
+
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="home" id="home">
+    <div class="home-content">
+        <h1>Hello, I'm Allan</h1>
+        <h3><span class="typing"></span></h3>
+        <p>I build premium, modern websites focused on performance, design, and user experience.</p>
+
+        <div class="buttons">
+            <a href="ATS RESUME.pdf" class="btn" download>Download CV</a>
+            <a href="#contact" class="btn outline">Hire Me</a>
+        </div>
+    </div>
+
+    <div class="home-img">
+        <div class="glow-circle"></div>
+        <img src="profile.jpg" alt="Allan Profile">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="profile.jpg" alt="About Allan">
+    </div>
+
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <p>
+            I am a dedicated Computer Engineering graduate with a passion for building modern, 
+            high-performance web applications. I specialize in creating visually appealing 
+            and responsive user interfaces while ensuring smooth and efficient functionality.
+        </p>
+        <a href="#projects" class="btn">View Projects</a>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <h2>My <span>Projects</span></h2>
+
+    <div class="project-container">
+        <div class="project-box">
+            <h3>Portfolio Website</h3>
+            <p>Responsive personal portfolio using HTML, CSS, JS.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>IoT Smart Door Lock</h3>
+            <p>Multi-authentication IoT-based smart security system.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>LANDBANK Internship</h3>
+            <p>IT support, troubleshooting, and technical assistance.</p>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+    <h2>Contact <span>Me</span></h2>
+
+    <form id="contact-form">
+        <input type="text" name="user_name" placeholder="Full Name" required>
+        <input type="email" name="user_email" placeholder="Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn" id="sendBtn">Send Message</button>
+    </form>
+</section>
+
+<!-- EMAILJS -->
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- MAIN JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
